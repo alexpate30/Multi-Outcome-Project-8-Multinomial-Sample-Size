@@ -1,0 +1,47 @@
+---
+title: "scen9to12 with likelihood split"
+author: "Alex Pate"
+date: "24/11/2020"
+output: word_document
+---
+
+```{r, echo=FALSE}
+load("R_out/multinom dl comparison results scen1to5.RData")
+
+library(knitr)
+print("slopes")
+print("Scenario1")
+kable(output.scen1.slopes)
+print("Scenario2")
+kable(output.scen2.slopes)
+print("Scenario3")
+kable(output.scen3.slopes)
+print("Scenario4")
+kable(output.scen4.slopes)
+print("Scenario5")
+kable(output.scen5.slopes)
+
+print("se.median")
+print("Scenario1")
+kable(output.se.scen1.median)
+print("Scenario2")
+kable(output.se.scen2.median)
+print("Scenario3")
+kable(output.se.scen3.median)
+print("Scenario4")
+kable(output.se.scen4.median)
+print("Scenario5")
+kable(output.se.scen5.median)
+
+print("se.mean")
+print("Scenario1")
+kable(output.se.scen1.mean)
+print("Scenario2")
+kable(output.se.scen2.mean)
+print("Scenario3")
+kable(output.se.scen3.mean)
+print("Scenario4")
+kable(output.se.scen4.mean)
+print("Scenario5")
+kable(output.se.scen5.mean)
+```
