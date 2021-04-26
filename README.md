@@ -1,4 +1,4 @@
-# Project-8-Multinomial-Sample-Size
+# Multi-Outcome-Project-8-Multinomial-Sample-Size
 Code for manuscript
 
 All R code directories are relative to a root directory, which is the data and materials folder. Either start an R project file where the root directory is positioned here, or add a line at the top of every piece of code with a current directory command: "cd('INSERT PATH TO DIRECTORY HERE')".
